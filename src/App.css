@@ -1,3 +1,7 @@
+.App{
+  max-width: 960px;
+  margin: 0 auto;
+}
 body{
   background: #f9f8fe;
 }
@@ -5,6 +9,7 @@ body{
 a{
   text-decoration: none;
 }
+
 .App-header{
   margin: 30px 0;
 }
