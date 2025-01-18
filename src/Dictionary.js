@@ -49,7 +49,7 @@ export default function Dictionarry(props){
         <section> 
           <h1>What word do you want to look up?</h1>
           <form onSubmit = {handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} defaultValue ={props.defaultKeyword}/>
+            <input type="search" onChange={handleKeywordChange} defaultValue ={props.defaultKeyword} className="search-input"/>
           </form>
           <div className="hint">
             Suggested words: sunset, wine, yoga, plant...
@@ -63,5 +63,4 @@ export default function Dictionarry(props){
     load();
     return "Loading";
   }
-
 }

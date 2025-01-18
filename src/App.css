@@ -2,8 +2,9 @@
   max-width: 960px;
   margin: 0 auto;
 }
+
 body{
-  background: #f9f8fe;
+  background: #272044;
 }
 
 a{
@@ -12,16 +13,33 @@ a{
 
 .App-header{
   margin: 30px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 .App-logo{
-  max-width: 200px;
+  max-width: 50px;
   display: block;
   margin: 0 auto;
+  border-radius: 7px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  gap: 12px;
+  font-weight: 900;
+  opacity: 0.7;
+  font-family: 'Poppins', sans-serif;
 }
 
 .code-credit{
   font-size: 14px;
   margin: 30px 0;
   text-align: center;
+  color: white;
+  opacity: 0.7;
 }
